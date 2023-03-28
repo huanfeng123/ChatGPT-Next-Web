@@ -51,11 +51,11 @@ const cn = {
     },
     Avatar: "头像",
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `当前版本：1.5`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      FoundUpdate: (x: string) => `发现新版本：1.5`,
       GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
@@ -95,7 +95,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎访问交流论坛：www.66o.co",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
